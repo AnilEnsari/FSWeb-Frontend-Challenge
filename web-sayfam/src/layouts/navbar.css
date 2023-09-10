@@ -1,0 +1,26 @@
+.circlea {
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  background-color: #eeebff;
+  max-width: 4rem;
+  text-align: center;
+  border-radius: 50%;
+  transform: rotate(30.332deg);
+  color: #7b61ff;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sph {
+  width: 40%;
+  justify-content: space-between;
+  align-items: center;
+}
+.hireme {
+  border-radius: 6px;
+  border: 1px solid var(--default-indigo-800, #3730a3);
+  background: var(--default-white, #fff);
+  padding: 12px 32px;
+}
