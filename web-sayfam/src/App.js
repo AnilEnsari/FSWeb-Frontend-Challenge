@@ -1,15 +1,22 @@
 import "./App.css";
-import Description from "./components/description";
-import Header from "./layouts/header";
-import Navbar from "./layouts/navbar";
+import WebSiteProvider from "./contexts/websiteContext";
+import Footer from "./layouts/Footer";
+import MyHeader from "./layouts/MyHeader";
+import Profile from "./layouts/Profile";
+import Projects from "./layouts/Projects";
+import Skills from "./layouts/Skills";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Navbar />
-      <Description />
-    </div>
+    <>
+      <WebSiteProvider>
+        <MyHeader />
+        <Skills />
+        <Profile />
+        <Projects />
+        <Footer />
+      </WebSiteProvider>
+    </>
   );
 }
 
