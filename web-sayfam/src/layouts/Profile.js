@@ -7,7 +7,7 @@ export default function Profile() {
   const { language } = useContext(websiteContext);
 
   return (
-    <div className="bg-purple pb-12">
+    <div className="bg-purple pb-12 dark:bg-[#171043]">
       <h2 className="text-green text-6xl ml-60 mb-8  pt-16">
         {data[language].profile.profile}
       </h2>
@@ -39,10 +39,10 @@ export default function Profile() {
           <h6 className="text-3xl text-[#FFF]  ">
             {data[language].profile.aboutMe}
           </h6>
-          <p className="mt-12 text-[#FFF]">
+          <p className="mt-6 text-[#FFF]">
             {data[language].profile.aboutMeFirstP}
           </p>
-          <p className="mt-12 text-[#FFF]">
+          <p className="mt-6 text-[#FFF]">
             {data[language].profile.aboutMeSecondP}
           </p>
         </div>
