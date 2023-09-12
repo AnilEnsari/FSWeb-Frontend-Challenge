@@ -41,7 +41,7 @@ const data = {
       response: {
         birthday: "26.11.1990",
         city: "İzmir",
-        graduatedFrom: "EGE Üni. Makine Mühendisliği Lisans, 2014",
+        graduatedFrom: "EGE Üni. Makine Mühendisliği, 2014",
         role: "Full-stack Developer",
       },
       aboutMe: "Hakkımda",
