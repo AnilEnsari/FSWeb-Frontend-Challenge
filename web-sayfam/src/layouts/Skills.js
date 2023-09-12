@@ -8,7 +8,7 @@ export default function Skills() {
   return (
     <div className="dark:bg-[#252128;] pb-24 ">
       <div className=" max-w-[66%] ml-60 flex justify-between py-24 ">
-        <p className=" text-8xl text-[#4832D3] dark:text-[#CBF281]">
+        <p className=" text-6xl text-[#4832D3] dark:text-[#CBF281]">
           {data[language].skills.skils}
         </p>
         <div className="flex flex-col gap-12" style={{ maxHeight: "50vh" }}>

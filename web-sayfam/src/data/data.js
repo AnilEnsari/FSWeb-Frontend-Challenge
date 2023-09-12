@@ -4,14 +4,14 @@ import ReduxLogo from "../assets/redux1.png";
 import NodeLogo from "../assets/node.png";
 import VsCodeLogo from "../assets/vsCode.png";
 import FigmaLogo from "../assets/figma.png";
-import ProjectPicture1 from "../assets/ProjectPictures1.png";
-import ProjectPicture2 from "../assets/Journey.png";
 import JavascriptDark from "../assets/jsDark.png";
 import ReactDark from "../assets/reactDark.png";
 import ReduxDark from "../assets/reduxDark.png";
 import nodeDark from "../assets/nodeDark.png";
 import vsDark from "../assets/vsCodeDark.png";
 import figmaDark from "../assets/figmaDark.png";
+import pizza from "../assets/pizza360.jpg";
+import todo from "../assets/todo360.jpg";
 
 const data = {
   tr: {
@@ -55,17 +55,17 @@ const data = {
       visit: "Siteyi Görüntüle",
       projectsArray: [
         {
-          title: "Workintech",
-          img: ProjectPicture1,
+          title: "Pizza Challenge",
+          img: pizza,
           description:
-            "TÜRKÇE A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
+            "React uygulamasıyla yapılmış bir Pizza Sipariş Sitesi Projesi. Ana sayfa , Sipariş Sayfası ve Sipariş Tamamlandı Sayfası SPA kullanılarak oluşturulmuştur.",
           programs: ["Redux", "React", "Vercel"],
         },
         {
-          title: "Journey",
-          img: ProjectPicture2,
+          title: "To Do List",
+          img: todo,
           description:
-            "TÜRKÇE A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
+            "Hem işiniz hem de günlük yaşantınız için kullanabileceğiniz hayatınızı kolaylaştıracak bir ajanda uygulaması.",
           programs: ["React", "Redux", "Vercel"],
         },
       ],
@@ -119,17 +119,17 @@ const data = {
       visit: "View Site",
       projectsArray: [
         {
-          title: "Workintech",
-          img: ProjectPicture1,
+          title: "Pizza Challenge",
+          img: pizza,
           description:
-            "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
+            "A Pizza Ordering Site Project made with React application. Home page, Order Page and Order Completed Page were created using SPA.",
           programs: ["Redux", "React", "Vercel"],
         },
         {
-          title: "Journey",
-          img: ProjectPicture2,
+          title: "To Do List",
+          img: todo,
           description:
-            "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
+            "An organizer application that you can use for both your work and daily life to make your life easier",
           programs: ["React", "Redux", "Vercel"],
         },
       ],
