@@ -1,18 +1,24 @@
 import JavascriptLogo from "../assets/js.png";
 import ReactLogo from "../assets/react.png";
+import ReduxLogo from "../assets/redux1.png";
 import NodeLogo from "../assets/node.png";
 import VsCodeLogo from "../assets/vsCode.png";
 import FigmaLogo from "../assets/figma.png";
 import ProjectPicture1 from "../assets/ProjectPictures1.png";
 import ProjectPicture2 from "../assets/Journey.png";
-import ReduxLogo from "../assets/redux1.png";
+import JavascriptDark from "../assets/jsDark.png";
+import ReactDark from "../assets/reactDark.png";
+import ReduxDark from "../assets/reduxDark.png";
+import nodeDark from "../assets/nodeDark.png";
+import vsDark from "../assets/vsCodeDark.png";
+import figmaDark from "../assets/figmaDark.png";
 
 const data = {
   tr: {
     header: {
-      name: "Anıl",
-      title: "Ben Bir Fullstack",
-      titleSecond: "Developerım...",
+      name: "ANIL",
+      title: "Ben Bir Full-stack",
+      titleSecond: "Developer'ım...",
       description:
         "...mükemmel kullanıcı deneyimlerine sahip, sağlam ve ölçeklenebilir ürünleri oluşturmayı seven.",
       to: "TO",
@@ -22,10 +28,12 @@ const data = {
       skils: "Yetenekler",
       skillsArray1: [JavascriptLogo, ReactLogo, ReduxLogo],
       skillsArray2: [NodeLogo, VsCodeLogo, FigmaLogo],
+      skillsDarkArray1: [JavascriptDark, ReactDark, ReduxDark],
+      skillsDarkArray2: [nodeDark, vsDark, figmaDark],
     },
     profile: {
       profile: "Profil Bilgilerim",
-      title: "Genel Bilgilerim",
+      title: "Özgeçmişim",
       birthday: "Doğum Tarihi",
       city: "İkamet Şehri",
       graduatedFrom: "Eğitim Durumu",
@@ -34,13 +42,13 @@ const data = {
         birthday: "26.11.1990",
         city: "İzmir",
         graduatedFrom: "EGE Üni. Makine Mühendisliği Lisans, 2014",
-        role: "Fullstack Developer",
+        role: "Full-stack Developer",
       },
       aboutMe: "Hakkımda",
       aboutMeFirstP:
-        "TÜRKÇE LOREM ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam! ",
+        "Hayatımdaki aradığı mesleğin ne olduğunu buldum ve bunu radikal bir kararla uygulamaya geçirdim. ",
       aboutMeSecondP:
-        "TÜRKÇE Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam! ",
+        "Araştırmayı ve öğrenmeyi seven, yazılım konusuna ise işten daha çok zevk aldığım bir konuda kendimi geliştirmek için vakit harcayacağım bir eğlence olarak başlamış birisiyim. ",
     },
     projects: {
       title: "Projelerim",
@@ -72,8 +80,8 @@ const data = {
 
   en: {
     header: {
-      name: "Anıl",
-      title: "I am a Frontend",
+      name: "ANIL",
+      title: "I am a Full-stack",
       titleSecond: "Developer...",
       description:
         "...who likes to craft solid and scalable frontend products with great user experiences.",
@@ -84,6 +92,8 @@ const data = {
       skils: "Skills",
       skillsArray1: [JavascriptLogo, ReactLogo, ReduxLogo],
       skillsArray2: [NodeLogo, VsCodeLogo, FigmaLogo],
+      skillsDarkArray1: [JavascriptDark, ReactDark, ReduxDark],
+      skillsDarkArray2: [nodeDark, vsDark, figmaDark],
     },
     profile: {
       profile: "Profile",
@@ -100,9 +110,9 @@ const data = {
       },
       aboutMe: "About Me",
       aboutMeFirstP:
-        "ENG Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam! ",
+        "I found out what my life's calling was and I took a radical decision to implement it",
       aboutMeSecondP:
-        "ENG Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam! ",
+        "I'm a person who loves research and learning, and started software as a pastime to spend time to improve myself in something I enjoy more than work.",
     },
     projects: {
       title: "Projects",
