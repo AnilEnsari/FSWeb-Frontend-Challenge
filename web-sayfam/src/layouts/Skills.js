@@ -6,8 +6,8 @@ export default function Skills() {
   const { language, darkMode } = useContext(websiteContext);
 
   return (
-    <div className="dark:bg-[#252128;]">
-      <div className=" max-w-[66%] ml-72 flex justify-between py-24 ">
+    <div className="dark:bg-[#252128;] pb-24 ">
+      <div className=" max-w-[66%] ml-60 flex justify-between py-24 ">
         <p className=" text-8xl text-[#4832D3] dark:text-[#CBF281]">
           {data[language].skills.skils}
         </p>

@@ -71,7 +71,7 @@ export default function MyHeader() {
               {data[language].header.languageSwitch}
             </span>
           </p>
-          <p className="text-green text-3xl ml-72">
+          <p className="text-green text-3xl ml-60">
             {data[language].header.name}
           </p>
         </div>
@@ -108,16 +108,16 @@ export default function MyHeader() {
 
       <div className="hero-content flex">
         <div className="hero-left bg-purple dark:bg-[#171043] min-w-[70%] self-end ">
-          <p className="text-green text-6xl ml-72 mr-48 mt-24">
+          <p className="text-green text-6xl ml-60 mr-48 mt-24">
             {data[language].header.title}
           </p>
-          <p className="text-green text-6xl ml-72 mr-48">
+          <p className="text-green text-6xl ml-60 mr-48">
             {data[language].header.titleSecond}
           </p>
-          <p className="text-white text-2xl ml-72 mr-48 mt-12">
+          <p className="text-white text-2xl ml-60 mr-48 mt-12">
             {data[language].header.description}
           </p>
-          <div className="buttons gap-4 flex ml-72 mb-24 mt-8 pt-5">
+          <div className="buttons gap-4 flex ml-60 mb-24 mt-8 pt-5">
             <button
               onClick={gitHubOnClickHandler}
               className="bg-white dark:bg-[#252128] border border-white border-solid rounded-md py-4 px-8 flex gap-2"
