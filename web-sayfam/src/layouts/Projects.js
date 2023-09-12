@@ -44,7 +44,7 @@ export default function Projects() {
                 {data[language].projects.visit}
               </a>
               <a
-                href="#"
+                href="https://github.com/AnilEnsari/"
                 className="ml-24 text-[#120B39] dark:text-[#CBF281] underline underline-offset-2 text-xl"
               >
                 Github

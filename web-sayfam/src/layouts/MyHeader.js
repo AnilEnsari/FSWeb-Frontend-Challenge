@@ -42,7 +42,7 @@ export default function MyHeader() {
       window.open("https://github.com/AnilEnsari", "_blank");
     }, 2000);
   };
-  const linkEdinOnClickHandler = () => {
+  const linkedInHandler = () => {
     toast.success("Linkedin Yönlendiriyorsunuz...", {
       position: "top-right",
       autoClose: 2000,
@@ -120,7 +120,7 @@ export default function MyHeader() {
               <p className="text-center dark:text-[#FFFFFF]">Github</p>
             </button>
             <button
-              onClick={linkEdinOnClickHandler}
+              onClick={linkedInHandler}
               className="bg-white dark:bg-[#252128] border border-white border-solid rounded-md py-4 px-8 flex gap-2"
             >
               <img
