@@ -46,7 +46,7 @@ const data = {
       },
       aboutMe: "Hakkımda",
       aboutMeFirstP:
-        "Hayatımdaki aradığı mesleğin ne olduğunu buldum ve bunu radikal bir kararla uygulamaya geçirdim. ",
+        "Hayatımdaki aradığım mesleğin ne olduğunu buldum ve bunu radikal bir kararla uygulamaya geçirdim. ",
       aboutMeSecondP:
         "Araştırmayı ve öğrenmeyi seven, yazılım konusuna ise işten daha çok zevk aldığım bir konuda kendimi geliştirmek için vakit harcayacağım bir eğlence olarak başlamış birisiyim. ",
     },

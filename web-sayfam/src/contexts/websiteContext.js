@@ -22,9 +22,7 @@ const WebSiteProvider = ({ children }) => {
     }
   };
 
-  const initialState = getInitialDarkModeState();
-
-  const [darkMode, setDarkMode] = useState(initialState);
+  const [darkMode, setDarkMode] = useState(getInitialDarkModeState());
 
   useEffect(() => {
     const isDarkModeEnabled = darkMode;
