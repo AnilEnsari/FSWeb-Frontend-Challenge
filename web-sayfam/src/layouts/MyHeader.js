@@ -9,6 +9,7 @@ import data from "../data/data";
 import axios from "axios";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import fotom from "../assets/fotom.jpg";
 
 export default function MyHeader() {
   const { language, setLanguage, darkModeHandler, darkMode } =
@@ -133,11 +134,7 @@ export default function MyHeader() {
         </div>
 
         <div className="hero-right bg-green dark:bg-[#1A210B] min-w-[30%]">
-          <img
-            className="-ml-64 absolute"
-            src={HeroPicture}
-            alt="heroright"
-          ></img>
+          <img className="-ml-64 absolute" src={fotom} alt="heroright"></img>
         </div>
       </div>
     </>
