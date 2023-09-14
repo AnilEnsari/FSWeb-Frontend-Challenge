@@ -55,16 +55,16 @@ const data = {
       visit: "Siteyi Görüntüle",
       projectsArray: [
         {
-          title: "Pizza Challenge",
+          title: "Pizza Sipariş Sayfası",
           img: pizza,
           description:
             "React uygulamasıyla yapılmış bir Pizza Sipariş Sitesi Projesi. Ana sayfa , Sipariş Sayfası ve Sipariş Tamamlandı Sayfası SPA kullanılarak oluşturulmuştur.",
           programs: ["Redux", "React", "Vercel"],
           github: "https://github.com/AnilEnsari/fsweb-s7-challenge-pizza",
-          url: "",
+          url: "https://mypizzasite.vercel.app/",
         },
         {
-          title: "To Do List",
+          title: "Yapılacaklar Listesi",
           img: todo,
           description:
             "Hem işiniz hem de günlük yaşantınız için kullanabileceğiniz hayatınızı kolaylaştıracak bir ajanda uygulaması.",
@@ -129,7 +129,7 @@ const data = {
             "A Pizza Ordering Site Project made with React application. Home page, Order Page and Order Completed Page were created using SPA.",
           programs: ["Redux", "React", "Vercel"],
           github: "https://github.com/AnilEnsari/fsweb-s7-challenge-pizza",
-          url: "https://agendatasks.vercel.app/",
+          url: "https://mypizzasite.vercel.app/",
         },
         {
           title: "To Do List",
@@ -138,7 +138,7 @@ const data = {
             "An organizer application that you can use for both your work and daily life to make your life easier",
           programs: ["React", "Redux", "Vercel"],
           github: "https://github.com/AnilEnsari/fsweb-s9g2-task-yonetimi-2",
-          url: "",
+          url: "https://agendatasks.vercel.app/",
         },
       ],
     },
