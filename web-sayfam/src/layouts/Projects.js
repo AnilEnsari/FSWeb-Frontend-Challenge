@@ -38,13 +38,13 @@ export default function Projects() {
             </div>
             <div className="mt-12 pb-8">
               <a
-                href="#"
+                href={proje.url}
                 className="text-[#120B39] dark:text-[#CBF281] underline underline-offset-2 text-xl"
               >
                 {data[language].projects.visit}
               </a>
               <a
-                href="https://github.com/AnilEnsari/"
+                href={proje.github}
                 className="ml-24 text-[#120B39] dark:text-[#CBF281] underline underline-offset-2 text-xl"
               >
                 Github

@@ -60,6 +60,8 @@ const data = {
           description:
             "React uygulamasıyla yapılmış bir Pizza Sipariş Sitesi Projesi. Ana sayfa , Sipariş Sayfası ve Sipariş Tamamlandı Sayfası SPA kullanılarak oluşturulmuştur.",
           programs: ["Redux", "React", "Vercel"],
+          github: "https://github.com/AnilEnsari/fsweb-s7-challenge-pizza",
+          url: "",
         },
         {
           title: "To Do List",
@@ -67,6 +69,8 @@ const data = {
           description:
             "Hem işiniz hem de günlük yaşantınız için kullanabileceğiniz hayatınızı kolaylaştıracak bir ajanda uygulaması.",
           programs: ["React", "Redux", "Vercel"],
+          github: "https://github.com/AnilEnsari/fsweb-s9g2-task-yonetimi-2",
+          url: "https://agendatasks.vercel.app/",
         },
       ],
     },
@@ -124,6 +128,8 @@ const data = {
           description:
             "A Pizza Ordering Site Project made with React application. Home page, Order Page and Order Completed Page were created using SPA.",
           programs: ["Redux", "React", "Vercel"],
+          github: "https://github.com/AnilEnsari/fsweb-s7-challenge-pizza",
+          url: "https://agendatasks.vercel.app/",
         },
         {
           title: "To Do List",
@@ -131,6 +137,8 @@ const data = {
           description:
             "An organizer application that you can use for both your work and daily life to make your life easier",
           programs: ["React", "Redux", "Vercel"],
+          github: "https://github.com/AnilEnsari/fsweb-s9g2-task-yonetimi-2",
+          url: "",
         },
       ],
     },
