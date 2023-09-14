@@ -29,7 +29,7 @@ export default function MyHeader() {
   };
 
   const gitHubOnClickHandler = () => {
-    toast.success("Github Yönlendiriliyorsunuz...", {
+    toast.success("Github Sayfama Yönlendiriliyorsunuz...", {
       position: "top-right",
       autoClose: 2000,
       hideProgressBar: false,
@@ -44,7 +44,7 @@ export default function MyHeader() {
     }, 2000);
   };
   const linkedInHandler = () => {
-    toast.success("Linkedin Yönlendiriyorsunuz...", {
+    toast.success("Linkedin Sayfama Yönlendiriyorsunuz...", {
       position: "top-right",
       autoClose: 2000,
       hideProgressBar: false,
