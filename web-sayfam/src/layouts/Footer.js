@@ -23,7 +23,7 @@ export default function Footer() {
       theme: "colored",
     });
     setTimeout(() => {
-      window.open("mailto:burakcevizli@gmail.com", "_blank");
+      window.open("mailto:anilensari@gmail.com", "_blank");
     }, 2000);
   };
 
@@ -32,7 +32,7 @@ export default function Footer() {
       <h1 className="text-[48px] pt-12 text-purple dark:text-[#8F88FF]">
         {data[language].footer.title}
       </h1>
-      <p className="text-[24px] dark:text-[#FFFFFF] mt-8 mb-8 text-[#120B39]">
+      <p className="text-[24px] mx-auto w-1/4 dark:text-[#FFFFFF] mt-8 mb-8 text-[#120B39]">
         {data[language].footer.description}
       </p>
       <p

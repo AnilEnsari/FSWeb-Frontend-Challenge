@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import githubLigth from "../assets/github1.png";
 import LinkedinLight from "../assets/LinkedIn.png";
-import HeroPicture from "../assets/resim.png";
 import { websiteContext } from "../contexts/websiteContext";
 import githubDark from "../assets/githubdark.png";
 import linkEdinDark from "../assets/LinkedIndark.png";
@@ -10,6 +9,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import fotom from "../assets/fotom.jpg";
+import resim1 from "../assets/resim.png";
 
 export default function MyHeader() {
   const { language, setLanguage, darkModeHandler, darkMode } =
@@ -171,7 +171,7 @@ export default function MyHeader() {
         </div>
 
         <div className="hero-right bg-green dark:bg-[#1A210B] min-w-[30%]">
-          <img className="-ml-64 absolute" src={fotom} alt="heroright"></img>
+          <img className="-ml-48 absolute " src={fotom} alt="heroright"></img>
         </div>
       </div>
     </>
