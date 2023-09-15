@@ -170,8 +170,8 @@ export default function MyHeader() {
           </div>
         </div>
 
-        <div className="hero-right bg-green dark:bg-[#1A210B] min-w-[30%]">
-          <img className="-ml-48 absolute " src={fotom} alt="heroright"></img>
+        <div className="hero-right bg-green  flex items-center dark:bg-[#1A210B] min-w-[30%]">
+          <img className="-ml-48  absolute " src={fotom} alt="heroright"></img>
         </div>
       </div>
     </>
