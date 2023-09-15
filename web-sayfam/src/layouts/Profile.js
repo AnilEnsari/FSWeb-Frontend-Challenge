@@ -1,15 +1,15 @@
 import React, { useContext } from "react";
-import ProfilePicture from "../assets/ProfilePicture.png";
+import ProfilePicture from "../assets/myphoto.jpg";
 import data from "../data/data";
 import { websiteContext } from "../contexts/websiteContext";
 
 export default function Profile() {
-  const { language } = useContext(websiteContext);
+  const { language, darkMode } = useContext(websiteContext);
 
   return (
     <div className="bg-purple pb-12 dark:bg-[#171043]">
       <h2 className="text-green text-6xl ml-60 mb-8  pt-16">
-        {data[language].profile.profile}
+        {darkMode || data[language].profile.profile}
       </h2>
       <div className="ml-60 flex w-4/6 justify-between">
         <div className="">
